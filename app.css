@@ -76,18 +76,8 @@ input {
     font-weight: bold;
 }
 
-.createdTooltip:focus {
-    /* background: hsl(115, 87%, 58%); */
-    border: solid 7px hsl(120, 92%, 74%);
-    animation: shadow-pulse 0.5s;
-}
-
 /* .createdTooltip::selection {
     background: #BA74EE;
     color: #fff;
 } */
 
-@keyframes shadow-pulse{
-    0% {box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);}
-    100% {box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);}
-}
