@@ -40,6 +40,10 @@
     cursor: pointer;
 }
 
+.ticket h2 i {
+    float: left;
+}
+
 .ticket h3 {
     font-weight: 300;
 }

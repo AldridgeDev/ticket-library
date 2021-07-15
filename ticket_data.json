@@ -4,6 +4,7 @@
     "ticket_rating": "1",
     "tags": ["delete", "hide", "remove", "blank"],
     "category": "Variety",
+    "icon": "fas fa-trash-alt",
     "desc": "Ticket is for deleting or hiding 1 item only.<br><br>For deleting multiple items, see Delete/Hide Multiple Items",
     "template" : "URL:&#013;&#013;Please delete the following item:&#013;&#013;Screenshot URL:"
 },
@@ -13,6 +14,7 @@
     "ticket_rating": "2",
     "tags": ["delete", "hide", "remove", "blank"],
     "category": "Variety",
+    "icon": "far fa-trash-alt",
     "desc": "",
     "template" : "Url:&#013;&#013;Please delete the following items:&#013;&#013;Urls (if on multiple pages):&#013;&#013;Screenshot URLs:"
 },
@@ -22,6 +24,7 @@
     "ticket_rating": "3",
     "tags": [""],
     "category": "Variety",
+    "icon": "fas fa-edit",
     "desc": "For multiple edits",
     "template": "URL: "
 },
@@ -31,6 +34,7 @@
     "ticket_rating": "5",
     "tags": [""],
     "category": "Variety",
+    "icon": "far fa-edit",
     "desc": "For large tickets<br><br><strong>If you think you have a group project please reach out to Alex directly</strong>",
     "template": "URL: "
 },
@@ -40,6 +44,7 @@
     "ticket_rating": "1",
     "tags": ["pixel", "code", "third party", "javascript", "segment", "RT", "SV"],
     "category": "Code/Widgets/Videos",
+    "icon": "fas fa-code",
     "desc" : "<strong>WARNING: Please attach pixel to ticket as text file. CHILI WILL ERASE PART OF YOUR PIXEL CODE WHICH COULD RESULT IN THE CLIENT NOT HAVING THE PIXEL PROPERLY ON THEIR WEBSITE.</strong>",
     "template" : "See attached for pixel"
 },
@@ -49,6 +54,7 @@
     "ticket_rating": "2",
     "tags": ["pixel", "code", "third party", "javascript", "Google"],
     "category": "Code/Widgets/Videos",
+    "icon": "fas fa-code",
     "desc" : "<strong>WARNING: Please attach google codes to ticket as text file. CHILI WILL ERASE PART OF YOUR GOOGLE CODES WHICH COULD RESULT IN THE CLIENT NOT HAVING THE CODES PROPERLY ON THEIR WEBSITE.</strong>",
     "template" : "See attached for google codes&#013;&#013;Header Script file name:&#013;&#013;Content/Body Script file name:"
 },
@@ -56,8 +62,9 @@
     "id": 7,
     "ticketName": "Troubleshooting (website/forms/widgets)",
     "ticket_rating": "3",
-    "tags": ["fix", "not working", "blank", "debug", "troubleshoot", "third party", "not there"],
+    "tags": ["please fix", "not working", "blank", "debug", "troubleshoot", "third party", "not there", "broken", "doesn't work", "not working", "page not loading"],
     "category": "Code/Widgets/Videos",
+    "icon": "fas fa-file-code",
     "desc": "For troubleshooting something on the website that does not work (i.e. forms, widgets, third party code, anything broken, etc)",
     "template": "URL: &#013;&#013;Issue:"
 },
@@ -67,6 +74,7 @@
     "ticket_rating": "2",
     "tags": ["video", "vimeo video addition", "mp4", "mov", "upload video", "single video", "video single", "youtube video addition"],
     "category": "Code/Widgets/Videos",
+    "icon": "fas fa-film",
     "desc": "For adding 1 video to a page<br><br><strong>Must attach video to ticket or through Dropbox or Google Drive (Google drive must have public access)</strong> see <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">Ticket Limitations Page #2</a>",
     "template": "URL: &#013;&#013;"
 },
@@ -76,6 +84,7 @@
     "ticket_rating": "3",
     "tags": ["video", "vimeo video addition", "mp4", "mov", "upload video", "youtube video addition", "video multiple", "videos multiple", "multiple videos"],
     "category": "Code/Widgets/Videos",
+    "icon": "fas fa-film",
     "desc": "For adding 2-5 videos on a site<br><br><strong>Must attach videos to ticket or through Dropbox or Google Drive (Google drive must have public access)</strong> see <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">Ticket Limitations Page #2</a>",
     "template": "URL: &#013;&#013;"
 },
@@ -85,6 +94,7 @@
     "ticket_rating": "4",
     "tags": ["video", "vimeo video addition", "mp4", "mov", "upload video", "youtube video addition", "video multiple", "videos multiple", "multiple videos"],
     "category": "Code/Widgets/Videos",
+    "icon": "fas fa-film",
     "desc": "For adding 6-10 videos on a site<br><br><strong>Max 15 videos on a single page</strong><br><br><strong>Must attach videos to ticket or through Dropbox or Google Drive (Google drive must have public access)</strong>, see <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">Ticket Limitations Page #2</a>",
     "template": "URL: &#013;&#013;"
 },
@@ -94,6 +104,7 @@
     "ticket_rating": "4",
     "tags": ["video", "vimeo", "mp4", "mov", "upload", "lead", "top", "page", "first", "section", "above", "lead", "hero"],
     "category": "Code/Widgets/Videos",
+    "icon": "fas fa-photo-video",
     "desc": "For adding a video DL<br><br><strong>WARNING: We do not recommend having a wordy video DL. Video DLs have a set height and modifying the height can cause issues. Normal headline and subheadline is appropriate </strong>",
     "template": "URL: &#013;&#013;"
 },
@@ -103,6 +114,7 @@
     "ticket_rating": "2",
     "tags": ["third party"],
     "category": "Code/Widgets/Videos",
+    "icon": "fas fa-file-code",
     "desc": "Please attach code to ticket as text file. CHILI WILL ERASE PART OF YOUR CODE WHICH COULD RESULT IN THE CLIENT NOT HAVING THE CODE PROPERLY ON THEIR WEBSITE.</strong>",
     "template": "URL: &#013;&#013;"
 },
@@ -112,6 +124,7 @@
     "ticket_rating": "1",
     "tags": ["third party", "widget", "social media"],
     "category": "Code/Widgets/Videos",
+    "icon": "fas fa-file-code",
     "desc": "Basic Facebook Feed<br><br><strong>Please note: Instagram or any other social media feed codes must be provided and attached to ticket.</strong> see <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">Ticket Limitations Page #8</a>",
     "template": "URL: &#013;&#013;Facebook Link: &#013;&#013;Screenshot URL of location to place on page: "
 },
@@ -121,134 +134,153 @@
     "ticket_rating": "3",
     "tags": ["theme", "add to top", "top of site", "social bar", "center", "center align", "left align", "right align"],
     "category": "Header/Navigation",
+    "icon": "fas fa-window-maximize",
     "desc": "",
     "template": ""
 },
 {
     "id": 15,
-    "ticketName": "Social icon addition",
+    "ticketName": "Social icon addition (header)",
     "ticket_rating": "1",
     "tags": ["facebook", "instagram", "gmb", "in the social bar", "follow us dropdown", "avvo", "home advisor"],
-    "category": "Header/Navigation"
+    "category": "Header/Navigation",
+    "icon": "fab fa-facebook"
 },
 {
     "id": 16,
     "ticketName": "Social drop down to icons conversion",
     "ticket_rating": "3",
     "tags": ["facebook", "instagram", "in the social bar", "change follow us dropdown", "release", "convert", "break out"],
-    "category": "Header/Navigation"
+    "category": "Header/Navigation",
+    "icon": "fas fa-sitemap"
 },
 {
     "id": 17,
     "ticketName": "Link change",
     "ticket_rating": "1",
     "tags": ["change text", "replace"],
-    "category": "Header/Navigation"
+    "category": "Header/Navigation",
+    "icon": "fas fa-code"
 },
 {
     "id": 18,
     "ticketName": "Navigation organization/dropdowns",
     "ticket_rating": "2",
     "tags": ["nav", "drop down", "organize", "add tab", "site map", "multiple tabs"],
-    "category": "Header/Navigation"
+    "category": "Header/Navigation",
+    "icon": "fas fa-bars"
 },
 {
     "id": 19,
     "ticketName": "Favicon",
     "ticket_rating": "2",
     "tags": ["change", "icon", "small", "image", "img", "picture tab", "tab picture", "small tab image"],
-    "category": "Header/Navigation"
+    "category": "Header/Navigation",
+    "icon": "fas fa-file-image"
 },
 {
     "id": 20,
     "ticketName": "Logo edits",
     "ticket_rating": "3",
     "tags": ["change", "edit logo", "logos", "add to logo", "remove background", "image", "img"],
-    "category": "Header/Navigation"
+    "category": "Header/Navigation",
+    "icon": "far fa-image"
 },
 {
     "id": 21,
     "ticketName": "Flashing header banner (standard)",
     "ticket_rating": "2",
     "tags": ["header banner", "gradient", "pop", "flashy", "thin strip"],
-    "category": "Header/Navigation"
+    "category": "Header/Navigation",
+    "icon": "fas fa-window-maximize"
 },
 {
     "id": 22,
     "ticketName": "Header text",
     "ticket_rating": "2",
     "tags": ["banner", "cta", "call to action", "link", "phone number", "address", "add"],
-    "category": "Header/Navigation"
+    "category": "Header/Navigation",
+    "icon": "fas fa-window-maximize"
 },
 {
     "id": 23,
     "ticketName": "Color/font change (single)",
     "ticket_rating": "1",
     "tags": ["color", "font", "style", "styling", "wording", "transparent", "hidden", "white on white", "not there"],
-    "category": "Style"
+    "category": "Style",
+    "icon": "fas fa-font"
 },
 {
     "id": 24,
     "ticketName": "Color/font changes (multiple)",
     "ticket_rating": "2",
     "tags": ["color", "font", "style", "styling", "wording", "transparent", "hidden"],
-    "category": "Style"
+    "category": "Style",
+    "icon": "fas fa-font"
 },
 {
     "id": 25,
     "ticketName": "Feature update (simple change)",
     "ticket_rating": "2",
     "tags": ["features", "option", "icons", "images", "img"],
-    "category": "Style"
+    "category": "Style",
+    "icon": "far fa-images"
 },
 {
     "id": 26,
     "ticketName": "New Features",
     "ticket_rating": "3",
     "tags": ["features", "option", "icons", "images", "img"],
-    "category": "Style"
+    "category": "Style",
+    "icon": "far fa-images"
 },
 {
     "id": 27,
     "ticketName": "Package Pricing",
     "ticket_rating": "3",
     "tags": ["features", "option", "icons", "price"],
-    "category": "Style"
+    "category": "Style",
+    "icon": "far fa-images"
 },
 {
     "id": 28,
     "ticketName": "Homepage layout changes",
     "ticket_rating": "5",
     "tags": ["main", "landing page", "layouts", "features", "adding", "multiple", "several"],
-    "category": "Style"
+    "category": "Style",
+    "icon": "far fa-window-maximize"
 },
 {
     "id": 29,
     "ticketName": "Single page creation",
     "ticket_rating": "3",
     "tags": ["one page", "adding new page", "add new page", "create", "testimonial page", "review page", "about us page", "gallery page", "contact us page", "service area page", "service page", "area we service", "areas we service", "one page", "content ticket"],
-    "category": "Pages"
+    "category": "Pages",
+    "icon": "far fa-window-maximize"
 },
 {
     "id": 30,
     "ticketName": "Create multiple pages (2-3)",
     "ticket_rating": "4",
     "tags": ["several pages", "adding new pages", "add new pages", "create", "testimonial page", "review page", "about us page", "gallery pages", "service area page", "service page", "area we service", "areas we service", "one page", "multiple locations", "content ticket"],
-    "category": "Pages"
+    "category": "Pages",
+    "icon": "far fa-window-restore"
 },
 {
     "id": 31,
     "ticketName": "Create multiple pages (4+)",
     "ticket_rating": "5",
     "tags": ["several pages", "adding new pages", "add new pages", "create", "testimonial page", "review page", "about us page", "gallery pages", "service area page", "service page", "area we service", "areas we service", "one page", "multiple locations", "content ticket", "projects"],
-    "category": "Pages"
+    "category": "Pages",
+    "icon": "far fa-window-restore"
 },
 {
     "id": 32,
     "ticketName": "Custom layout page creation",
     "ticket_rating": "4",
     "tags": ["several pages", "adding new pages", "add new pages", "create", "testimonial page", "review page", "about us page", "gallery pages", "service area page", "service page", "area we service", "areas we service", "one page", "multiple locations", "content ticket", "not typical", "not average"],
-    "category": "Pages"
+    "category": "Pages",
+    "icon": "fas fa-laptop-code"
 },
 {
     "id": 33,
@@ -256,6 +288,7 @@
     "ticket_rating": "3",
     "tags": ["one page", "adding new page", "add new page", "create", "testimonial page", "review page", "reviews"],
     "category": "Pages"
+    
 },
 {
     "id": 34,
@@ -457,7 +490,7 @@
     "id": 61,
     "ticketName": "Floating button (standard & singluar)",
     "ticket_rating": "2",
-    "tags": ["one floating button", "single floating button", "singular floating button", "gmb floating button", "gmb button", "social media floating button"],
+    "tags": ["one floating button", "single floating button", "singular floating button", "gmb floating button", "gmb button", "social media floating button", "social floating buttons", "social icon floating buttons"],
     "category": "Buttons/Pop-ups",
     "template" : "Floating Button Style: &#013;Color(s): &#013;URL the button will link to:"
 },
@@ -465,7 +498,7 @@
     "id": 62,
     "ticketName": "Floating button (multiple or custom)",
     "ticket_rating": "3",
-    "tags": ["multiple floating buttons", "custom floating button", "click to text", "click to call", "social media floating buttons", "facebook", "instagram", "google my business", "home advisor", "yelp", "thumbtack", "linkedin", "snapchat", "youtube", "form", "popup", "pop up", "modal"],
+    "tags": ["multiple floating buttons", "custom floating button", "click to text", "click to call", "social media floating buttons", "facebook", "instagram", "google my business", "home advisor", "yelp", "thumbtack", "linkedin", "snapchat", "youtube", "form", "popup", "pop up", "modal", "social media floating button", "social floating buttons", "social icon floating buttons"],
     "category": "Buttons/Pop-ups",
     "template" : "Desktop Floating Button Style: &#013;Desktop Color(s): &#013;Desktop URL the button will link to: &#013;&#013;Mobile Floating Button Style: &#013;Mobile Color(s): &#013;Mobile URL or Phone Number: "
 },
