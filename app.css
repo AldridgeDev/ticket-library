@@ -19,10 +19,7 @@
 #ticketIndex {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    /* display: flex;
-    flex-wrap: wrap;*/
     align-items: center;
-    /* justify-content: space-evenly;  */
     width: min(1250px, 100%);
     margin: 20px auto 0;
 }
@@ -31,14 +28,20 @@
     padding: 30px;
     margin: 10px;
     border-radius: 30px;
-    background: #5669EF;
     color: #fff;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
-.ticket h2:hover,
-.ticket h3:hover {
+.ticket h2 {
+    text-decoration: underline;
+}
+
+.ticket h2:hover {
     cursor: pointer;
+}
+
+.ticket h3 {
+    font-weight: 300;
 }
 
 input {
@@ -57,7 +60,7 @@ input {
     color: #fff;
 }
 
-.ticket.active .template {
+.ticket h2.active + h3 + div {
     display: block;
 }
 

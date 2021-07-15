@@ -70,3 +70,19 @@ body {
 body a {
     color: var(--text);
 }
+
+.light .ticket  {
+    background: #5669EF;
+}
+
+.dark .ticket {
+    background: #333;
+}
+
+.solar.light .ticket {
+    background: #F07D70;;
+}
+
+.solar.dark .ticket {
+    background: #002936;
+}

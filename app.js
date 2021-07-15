@@ -27,8 +27,8 @@ const displayTickets = (tickets) => {
     const htmlString = tickets
         .map((ticket) => {
             return `
-            <div class="ticket" onclick="addActiveClass(this)">
-                <h2>${ticket.ticketName}</h2> 
+            <div class="ticket">
+                <h2 onclick="addActiveClass(this)">${ticket.ticketName}</h2> 
                 <h3>Ticket Rating: ${ticket.ticket_rating}</h3>
                 <div class="template" title="Click to copy!"><span>${ticket.desc}</span><br><br><span class="copy-template">Click on the text to copy the template</span><br><br><textarea class="ticketTemplate" onclick="clickToCopy(this)">${ticket.template}</textarea></div><br>
             </div>

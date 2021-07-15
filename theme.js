@@ -19,7 +19,7 @@ if (theme) {
 
 // Button Event Handlers
 
-  darkButton.onclick = () => {
+darkButton.onclick = () => {
   body.classList.replace('light', 'dark');
   localStorage.setItem('theme', 'dark');
 };
