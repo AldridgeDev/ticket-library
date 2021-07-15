@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container h1 {
+    margin-top: 20px;
+}
+
+#ticketIndex {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    /* display: flex;
+    flex-wrap: wrap;*/
+    align-items: center;
+    /* justify-content: space-evenly;  */
+    width: min(1250px, 100%);
+    margin: 20px auto 0;
+}
+
+.ticket {
+    padding: 30px;
+    margin: 10px;
+    border-radius: 30px;
+    background: #5669EF;
+    color: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.ticket h2:hover,
+.ticket h3:hover {
+    cursor: pointer;
+}
+
+input {
+    padding: 7px;
+    margin: 20px 5px;
+    width: min(100%, 600px);
+}
+
+.template {
+    display: none;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.template a {
+    color: #fff;
+}
+
+.ticket.active .template {
+    display: block;
+}
+
+.ticketTemplate {
+    min-height: 200px !important;
+    height: 100%;
+    width: min(100%, 100%);
+    border: solid 2px #fff;
+    padding: 10px;
+}
+
+.copy-template {
+    font-weight: bold;
+}
+
+.createdTooltip:focus {
+    /* background: hsl(115, 87%, 58%); */
+    border: solid 7px hsl(120, 92%, 74%);
+    animation: shadow-pulse 0.5s;
+}
+
+/* .createdTooltip::selection {
+    background: #BA74EE;
+    color: #fff;
+} */
+
+@keyframes shadow-pulse{
+    0% {box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);}
+    100% {box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);}
+}
