@@ -15,7 +15,8 @@ searchBar.addEventListener('keyup', (e) => {
 
 const loadTickets = async () => {
     try {
-        const res = await fetch('http://127.0.0.1:5500/ticket_data.json');
+        // const res = await fetch('http://127.0.0.1:5500/ticket_data.json');
+        const res = await fetch('https://raw.githubusercontent.com/AldridgeDev/ticket-library/main/ticket_data.json');
         ticketTypes = await res.json();
         displayTickets(ticketTypes);
     } catch (err) {
