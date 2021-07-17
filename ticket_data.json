@@ -76,7 +76,7 @@
     "category": "Code/Widgets/Videos",
     "icon": "fas fa-film",
     "desc": "For adding 1 video to a page<br><br><strong>Must attach video to ticket or through Dropbox or Google Drive (Google drive must have public access)</strong> see <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">Ticket Limitations Page #2</a>",
-    "template": "URL: &#013;&#013;"
+    "template": "URL: &#013;&#013;Location on the page to add video:"
 },
 {
     "id": 9,
@@ -86,7 +86,7 @@
     "category": "Code/Widgets/Videos",
     "icon": "fas fa-film",
     "desc": "For adding 2-5 videos on a site<br><br><strong>Must attach videos to ticket or through Dropbox or Google Drive (Google drive must have public access)</strong> see <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">Ticket Limitations Page #2</a>",
-    "template": "URL: &#013;&#013;"
+    "template": "URL: &#013;&#013;Location(s) to add videos:"
 },
 {
     "id": 10,
@@ -96,7 +96,7 @@
     "category": "Code/Widgets/Videos",
     "icon": "fas fa-film",
     "desc": "For adding 6-10 videos on a site<br><br><strong>Max 15 videos on a single page</strong><br><br><strong>Must attach videos to ticket or through Dropbox or Google Drive (Google drive must have public access)</strong>, see <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">Ticket Limitations Page #2</a>",
-    "template": "URL: &#013;&#013;"
+    "template": "URL: &#013;&#013;Location(s) to add videos:"
 },
 {
     "id": 11,
@@ -280,14 +280,17 @@
     "ticketRating": "4",
     "tags": ["several pages", "adding new pages", "add new pages", "create", "testimonial page", "review page", "about us page", "gallery pages", "service area page", "service page", "area we service", "areas we service", "one page", "multiple locations", "content ticket", "not typical", "not average"],
     "category": "Pages",
-    "icon": "fas fa-laptop-code"
+    "icon": "fas fa-laptop-code",
+    "desc":"This is for creating pages where we do not have an example TSI site. Please note: TSI sites have certian limitations and there is not a guarantee that the layout will be a one to one comparison of the non-tsi example page. We do not send designers down <a href=\"#\">rabbit holes</a> we can't climb out of, but we will do our best to accomodate to the client's request!",
+    "template":""
 },
 {
     "id": 33,
     "ticketName": "Testimonials page creation",
     "ticketRating": "3",
     "tags": ["one page", "adding new page", "add new page", "create", "testimonial page", "review page", "reviews"],
-    "category": "Pages"
+    "category": "Pages",
+    "icon": "fas fa-thumbs-up"
     
 },
 {
@@ -295,161 +298,186 @@
     "ticketName": "Thank you page creation",
     "ticketRating": "3",
     "tags": ["one page", "adding new page", "add new page", "create", "ignite", "campaign"],
-    "category": "Pages"
+    "category": "Pages",
+    "icon": "far fa-window-maximize"
 },
 {
     "id": 35,
     "ticketName": "Gallery page creation (up to 2 pages)",
     "ticketRating": "3",
     "tags": ["one page", "adding new page", "add new page", "create", "images", "portfolio", "photography"],
-    "category": "Pages"
+    "category": "Pages",
+    "icon": "fas fa-images"
 },
 {
     "id": 36,
     "ticketName": "Gallery page creation (3+)",
     "ticketRating": "5",
     "tags": ["adding new page", "add new page", "create", "images", "portfolio", "photography"],
-    "category": "Pages"
+    "category": "Pages",
+    "icon": "fas fa-images"
 },
 {
     "id": 37,
     "ticketName": "Text addition/change",
     "ticketRating": "1",
     "tags": ["add text", "remove text", "delete text", "popup", "modal", "link", "wording", "words"],
-    "category": "Content/Images"
+    "category": "Content/Images",
+    "icon": "fas fa-paragraph"
 },
 {
     "id": 38,
     "ticketName": "Content addition (up to 2 paragraphs)",
     "ticketRating": "2",
     "tags": ["add text", "remove text", "delete text", "wording", "words", "multiple", "several", "adding content", "content addition"],
-    "category": "Content/Images"
+    "category": "Content/Images",
+    "icon": "fas fa-paragraph"
 },
 {
     "id": 39,
     "ticketName": "Content addition (3+ paragraphs/multiple pages)",
     "ticketRating": "4",
     "tags": ["add text", "remove text", "delete text", "wording", "words", "multiple", "several", "adding content", "content addition", "add pages", "adding pages", "content ticket"],
-    "category": "Content/Images"
+    "category": "Content/Images",
+    "icon": "fas fa-paragraph"
 },
 {
     "id": 40,
     "ticketName": "Update Menus/Tables",
     "ticketRating": "4",
     "tags": ["add text", "remove text", "delete text", "wording", "words", "multiple", "several", "adding content", "content addition", "add pages", "adding pages", "restaurant", "food"],
-    "category": "Content/Images"
+    "category": "Content/Images",
+    "icon": "fas fa-utensils"
 },
 {
     "id": 41,
     "ticketName": "Link change",
     "ticketRating": "1",
     "tags": ["add text", "remove text", "delete text", "wording", "words"],
-    "category": "Content/Images"
+    "category": "Content/Images",
+    "icon": "fas fa-unlink"
 },
 {
     "id": 42,
     "ticketName": "Images addition (2-3, not DL)",
     "ticketRating": "2",
     "tags": ["images", "adding images", "add images", "img", "pictures", "adding pictures", "add pictures", "gallery page", "portfolio page"],
-    "category": "Content/Images"
+    "category": "Content/Images",
+    "icon": "far fa-images"
 },
 {
     "id": 43,
-    "ticketName": "Images addition (4-12[+/-3], not DL/min opt)",
+    "ticketName": "Images addition (4-15, not DL/min opt)",
     "ticketRating": "3",
     "tags": ["images", "adding images", "add images", "img", "pictures", "adding pictures", "add pictures", "gallery page", "portfolio page"],
-    "category": "Content/Images"
+    "category": "Content/Images",
+    "icon": "far fa-images"
 },
 {
     "id": 44,
-    "ticketName": "Images addition (16-32[+/-3], not DL/ext opt)",
+    "ticketName": "Images addition (16-35, not DL/ext opt)",
     "ticketRating": "4",
     "tags": ["images", "adding images", "add images", "img", "pictures", "adding pictures", "add pictures", "gallery page", "portfolio page"],
-    "category": "Content/Images"
+    "category": "Content/Images",
+    "icon": "far fa-images"
 },
 {
     "id": 45,
-    "ticketName": "Images addition (36-72[+/-3], not DL/ext opt)",
+    "ticketName": "Images addition (36-75, not DL/ext opt)",
     "ticketRating": "5",
     "tags": ["images", "adding images", "add images", "img", "pictures", "adding pictures", "add pictures", "gallery page", "portfolio page", "projects", "team project"],
-    "category": "Content/Images"
+    "category": "Content/Images",
+    "icon": "far fa-images"
 },
 {
     "id": 46,
     "ticketName": "Images addition (75+, not DL/ext opt)",
     "ticketRating": "5-10",
     "tags": ["images", "adding images", "add images", "img", "pictures", "adding pictures", "add pictures", "gallery page", "portfolio page", "projects", "team project"],
-    "category": "Content/Images"
+    "category": "Content/Images",
+    "icon": "far fa-images"
 },
 {
     "id": 47,
     "ticketName": "Images addition (75+, not DL/ext opt/lp + subs) (potential team ticket)",
     "ticketRating": "7-10",
     "tags": ["images", "adding images", "add images", "img", "pictures", "adding pictures", "add pictures", "gallery page", "portfolio page", "projects", "team project"],
-    "category": "Content/Images"
+    "category": "Content/Images",
+    "icon": "far fa-images"
 },
 {
     "id": 48,
     "ticketName": "DL (new/image change)",
     "ticketRating": "2",
     "tags": ["images", "adding images", "add images", "img", "pictures", "adding pictures", "add pictures", "home page", "lead", "hero", "carousel"],
-    "category": "Content/Images"
+    "category": "Content/Images",
+    "icon": "fas fa-image"
 },
 {
     "id": 49,
     "ticketName": "DL changes (multiple)",
     "ticketRating": "3",
     "tags": ["images", "adding images", "add images", "img", "pictures", "adding pictures", "add pictures", "home page", "lead", "hero", "gmb button", "slides", "add links", "2 buttons", "two buttons", "2 cta buttons", "multiple cta buttons", "carousel"],
-    "category": "Content/Images"
+    "category": "Content/Images",
+    "icon": "fas fa-clone"
 },
 {
     "id": 50,
     "ticketName": "Holiday DL (including custom font)",
     "ticketRating": "3",
     "tags": ["images", "adding images", "add images", "img", "pictures", "adding pictures", "add pictures", "home page", "lead", "hero", "gmb button", "slides", "presidents day", "fourth of july", "4th of july", "thanksgiving", "christmas", "holidays", "carousel", "seasonal"],
-    "category": "Content/Images"
+    "category": "Content/Images",
+    "icon": "fas fa-gifts"
 },
 {
     "id": 51,
     "ticketName": "Reviews addition (up to 10)",
     "ticketRating": "2",
     "tags": ["add testimonials", "add reviews"],
-    "category": "Content/Images"
+    "category": "Content/Images",
+    "icon": "far fa-thumbs-up"
 },
 {
     "id": 52,
     "ticketName": "Reviews addition (adding 11-30)",
     "ticketRating": "3",
     "tags": ["add testimonials", "add reviews"],
-    "category": "Content/Images"
+    "category": "Content/Images",
+    "icon": "far fa-thumbs-up"
 },
 {
     "id": 53,
     "ticketName": "Convert to Testimonial carousel",
     "ticketRating": "3",
     "tags": ["add testimonials", "add reviews", "custom fading quotes", "custom quotes", "custom reviews", "custom testimonials", "slides", "carousel"],
-    "category": "Content/Images"
+    "category": "Content/Images",
+    "icon": "far fa-thumbs-up"
 },
 {
     "id": 54,
     "ticketName": "Convert to Testimonial carousel",
     "ticketRating": "2",
     "tags": ["add testimonials", "add reviews", "slides", "carousel", "charlotte theme", "charlotte testimonials", "charlotte reviews"],
-    "category": "Content/Images"
+    "category": "Content/Images",
+    "icon": "far fa-thumbs-up"
 },
 {
     "id": 55,
     "ticketName": "Convert to Fading Testimonials",
     "ticketRating": "3",
     "tags": ["add testimonials", "add reviews", "custom fading quotes", "custom quotes", "custom reviews", "custom testimonials", "slides", "carousel", "charlotte theme", "charlotte testimonials", "charlotte reviews", "fade"],
-    "category": "Content/Images"
+    "category": "Content/Images",
+    "icon": "far fa-thumbs-up"
 },
 {
     "id": 56,
     "ticketName": "Google review button",
     "ticketRating": "1",
     "tags": ["gmb", "cta", "google my business"],
-    "category": "Buttons/Pop-ups"
+    "category": "Buttons/Pop-ups",
+    "icon": "fab fa-google",
+    "desc": "<strong>THIS IS NOT FOR A FLOATING BUTTON</strong><br><br><a href=\"http://designsource.production.townsquareinteractive.com/google-review-buttons\" target=\"_blank\">For Normal Google Review Buttons Here</a>",
+    "template": "URL:&#013;&#013;Google Review Button #(enter which style) &#013;&#013;Location to place button: "
 },
 {
     "id": 56,

@@ -75,7 +75,8 @@ body a {
     background: hsl(233, 83%, 64%);
 }
 
-.dark .ticket {
+.dark .ticket,
+.matrix .ticket {
     background: hsl(0, 0%, 20%);
 }
 
@@ -93,7 +94,7 @@ body a {
 }
 
 .dark .createdTooltip:focus {
-    border: solid 7px hsl(233, 80%, 53%);
+    border: solid 4px limegreen;
     animation: dark-pulse 0.5s;
 }
 

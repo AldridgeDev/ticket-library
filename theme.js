@@ -20,13 +20,23 @@ if (theme) {
 // Button Event Handlers
 
 darkButton.onclick = () => {
-  body.classList.replace('light', 'dark');
-  localStorage.setItem('theme', 'dark');
+  if (body.classList.contains("light")) {
+    body.classList.replace('light', 'dark');
+    localStorage.setItem('theme', 'dark'); 
+  } else if (body.classList.contains("matrix")) {
+    body.classList.replace('matrix', 'dark');
+    localStorage.setItem('theme', 'dark'); 
+  } 
 };
 
 lightButton.onclick = () => {
-  body.classList.replace('dark', 'light');
-  localStorage.setItem('theme', 'light'); 
+  if (body.classList.contains("dark")) {
+    body.classList.replace('dark', 'light');
+    localStorage.setItem('theme', 'light'); 
+  } else if (body.classList.contains("matrix")) {
+    body.classList.replace('matrix', 'light');
+    localStorage.setItem('theme', 'light'); 
+  } 
 };
 
 solarButton.onclick = () => {

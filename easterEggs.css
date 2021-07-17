@@ -1,0 +1,31 @@
+/* Matrix Theme */
+#matrix {
+    display: none;
+}
+
+#setMatrix {
+    text-decoration: none;
+}
+
+body.matrix,
+.matrix textarea,
+.matrix input {
+    background: #000;
+    color: limegreen;
+}
+
+.matrix input::placeholder,
+.matrix .ticket,
+.matrix a,
+.matrix .ticket a {
+    color: limegreen;
+}
+
+.matrix input {
+    border: solid 2px limegreen;
+}
+
+.matrix .ticket {
+    background: #111;
+}
+/* End Matrix Theme */
