@@ -7,7 +7,7 @@ searchBar.addEventListener('keyup', (e) => {
     const filteredTickets = ticketTypes.filter(ticket => {
         let tagNames = JSON.stringify(ticket.tags);
         return (
-            ticket.ticketName.toLowerCase().includes(searchString) || tagNames.includes(searchString) || ticket.category.toLowerCase().includes(searchString) || ticket.ticket_rating.includes(searchString)
+            ticket.ticketName.toLowerCase().includes(searchString) || tagNames.includes(searchString) || ticket.category.toLowerCase().includes(searchString) || ticket.ticketRating.includes(searchString)
         );
     });
     displayTickets(filteredTickets);
@@ -30,7 +30,7 @@ const displayTickets = (tickets) => {
             return `
             <div class="ticket">
                 <h2 onclick="addActiveClass(this)"><i class="${ticket.icon}"></i>${ticket.ticketName}</h2> 
-                <h3>Ticket Rating: ${ticket.ticket_rating}</h3>
+                <h3>Ticket Rating: ${ticket.ticketRating}</h3>
                 <div class="template" title="Click to copy!"><span>${ticket.desc}</span><br><br><span class="copy-template">Click on the text to copy the template</span><br><br><textarea class="ticketTemplate" onclick="clickToCopy(this)">${ticket.template}</textarea></div><br>
             </div>
         `;
