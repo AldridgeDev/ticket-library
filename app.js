@@ -62,6 +62,7 @@ let clickToCopy = (c) => {
 // matrix theme button
 let matrixBtn = document.getElementById('setMatrix');
 let matrixTheme = document.getElementById('matrix');
+
 matrixBtn.addEventListener('click', () => {
     matrixTheme.style.display = "block";
 });

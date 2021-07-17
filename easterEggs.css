@@ -1,4 +1,6 @@
 /* Matrix Theme */
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
 #matrix {
     display: none;
 }
@@ -28,4 +30,10 @@ body.matrix,
 .matrix .ticket {
     background: #111;
 }
+
+.matrix h1,
+.matrix h2 {
+    font-family: 'Major Mono Display', monospace;
+}
+
 /* End Matrix Theme */
