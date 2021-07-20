@@ -564,7 +564,7 @@
     "ticketRating": "1",
     "tags": ["add gmb button", "add cta button", "add google button", "move google button", "move cta button", "replace google button"],
     "category": "Buttons/Pop-ups",
-    "icon": "",
+    "icon": "fas fa-mouse",
     "desc" : "For adding 1 button to a page",
     "template" : "URL: &#013;&#013;Description: "
 },
@@ -574,7 +574,7 @@
     "ticketRating": "2",
     "tags": ["add cta button", "move cta button", "several page buttons", "multiple page buttons"],
     "category": "Buttons/Pop-ups",
-    "icon": "",
+    "icon": "fas fa-mouse",
     "desc" : "For adding up to 5 buttons to a page",
     "template" : "URL: &#013;&#013;Description: "
 },
@@ -584,7 +584,7 @@
     "ticketRating": "3",
     "tags": ["add cta button", "move cta button", "several page buttons", "multiple page buttons"],
     "category": "Buttons/Pop-ups",
-    "icon": "",
+    "icon": "fas fa-mouse",
     "desc" : "For adding more than 5 buttons to the site",
     "template" : "URL: &#013;&#013;Description: "
 },
@@ -594,7 +594,7 @@
     "ticketRating": "2",
     "tags": ["add cta button", "move cta button", "above navigation bar", "above nav bar", "button in header", "header button", "button header", "mobile header button", "add a button to mobile header"],
     "category": "Buttons/Pop-ups",
-    "icon": "",
+    "icon": "fas fa-mouse",
     "desc" : "For adding a button to the header",
     "template" : "URL: &#013;&#013;Description: "
 },
@@ -734,7 +734,7 @@
     "ticketRating": "3",
     "tags": ["change address", "change phone number", "change business name", "change hours", "update address", "update phone number", "update business name", "update hours", "throughout the site", "on all pages", "on both pages", "anywhere"],
     "category": "NAPH/Maps/GEO",
-    "icon": "",
+    "icon": "fas fa-location-arrow",
     "desc": "This ticket covers the following:<br><br>- Changing/adding wording throughout the site (i.e. adding/changing a location, phone number, or business name)<br><br>- If your ticket starts out with 'Anywhere on the site it says this...do this'<br><br>- Adding a form to all pages of the site",
     "template": "URLs: &#013;&#013;Details: "
 },
