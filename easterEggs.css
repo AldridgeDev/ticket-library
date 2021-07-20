@@ -9,6 +9,11 @@
     text-decoration: none;
 }
 
+.matrix *::selection {
+    background: limegreen;
+    color: #000;
+}
+
 body.matrix,
 .matrix textarea,
 .matrix input {
@@ -34,6 +39,16 @@ body.matrix,
 .matrix h1,
 .matrix h2 {
     font-family: 'Major Mono Display', monospace;
+}
+
+.matrix .createdTooltip:focus {
+    border: solid 7px limegreen;
+    animation: matrix-pulse 0.5s;
+}
+
+@keyframes matrix-pulse{
+    0% {box-shadow: 0 0 0 0px hsla(115, 100%, 50%, 0.5);}
+    100% {box-shadow: 0 0 0 35px hsla(115, 100%, 50%, 0);}
 }
 
 /* End Matrix Theme */

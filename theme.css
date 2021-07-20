@@ -98,22 +98,22 @@ body a {
     animation: dark-pulse 0.5s;
 }
 
-.solar.dark .createdTooltip:focus {
+.dark.solar .createdTooltip:focus {
     border: solid 7px hsl(266, 87%, 64%);
     animation: dark-pulse 0.5s;
 }
 
-.solar.light .createdTooltip:focus {
+.light.solar .createdTooltip:focus {
     border: solid 7px hsl(120, 92%, 74%);
     animation: light-pulse 0.5s;
 }
 
-@keyframes light-pulse{
+@keyframes light-pulse {
     0% {box-shadow: 0 0 0 0px hsla(0, 0%, 0%, 0.2);}
     100% {box-shadow: 0 0 0 35px hsla(0, 0%, 0%, 0);}
 }
 
-@keyframes dark-pulse{
-    0% {box-shadow: 0 0 0 0px hsl(0, 0%, 100%, 0.2);}
-    100% {box-shadow: 0 0 0 35px hsl(0, 0%, 100%, 0);}
+@keyframes dark-pulse {
+    0% {box-shadow: 0 0 0 0px hsla(0, 0%, 100%, 0.2);}
+    100% {box-shadow: 0 0 0 35px hsla(0, 0%, 100%, 0);}
 }
