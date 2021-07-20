@@ -132,11 +132,11 @@
     "id": 14,
     "ticketName": "Header Layout Changes",
     "ticketRating": "3",
-    "tags": ["theme", "add to top", "top of site", "social bar", "center", "center align", "left align", "right align"],
+    "tags": ["theme", "add to top", "top of site", "social bar", "center", "center align", "left align", "right align", "header looks", "change headers", "header changes", "add to header"],
     "category": "Header/Navigation",
     "icon": "fas fa-window-maximize",
-    "desc": "",
-    "template": ""
+    "desc": "For changing the look of some or all of the header &#013; &#013;",
+    "template": "URL:  &#013;&#013;Description:  &#013; &#013;Site Example URL: "
 },
 {
     "id": 15,
@@ -144,15 +144,19 @@
     "ticketRating": "1",
     "tags": ["facebook", "instagram", "gmb", "in the social bar", "follow us dropdown", "avvo", "home advisor"],
     "category": "Header/Navigation",
-    "icon": "fab fa-facebook"
+    "icon": "fab fa-facebook", 
+    "desc" : "Adding an icon to social bar in the header",
+    "template" : "URL:  &#013;  &#013;Title/Text:  &#013; &#013;Link: "
 },
 {
     "id": 16,
     "ticketName": "Social drop down to icons conversion",
     "ticketRating": "3",
-    "tags": ["facebook", "instagram", "in the social bar", "change follow us dropdown", "release", "convert", "break out"],
+    "tags": ["facebook", "instagram", "in the social bar", "change follow us dropdown", "release", "convert", "break out", "icon conversion", "icons conversion"],
     "category": "Header/Navigation",
-    "icon": "fas fa-sitemap"
+    "icon": "fas fa-sitemap",
+    "desc" : "For removing Follow Us dropdown on San Antonio sites and having only icons appear. <strong>Note: if your site already has the icons and you want it to be in a dropdown instead, there is a chance that your site is an Easton site. In these cases we must change the site from Easton to San Antonio</strong>",
+    "template" : "URL: "
 },
 {
     "id": 17,
@@ -160,7 +164,9 @@
     "ticketRating": "1",
     "tags": ["change text", "replace links", "updating links", "update links", "change links"],
     "category": "Header/Navigation",
-    "icon": "fas fa-code"
+    "icon": "fas fa-code",
+    "desc" : "For changing or replacing one link on the site.",
+    "template" : "URL: &#013;&#013;Location of link:  &#013;&#013;Screenshot: "
 },
 {
     "id": 18,
@@ -168,7 +174,9 @@
     "ticketRating": "2",
     "tags": ["nav", "drop down", "organize", "add tab", "site map", "multiple tabs"],
     "category": "Header/Navigation",
-    "icon": "fas fa-bars"
+    "icon": "fas fa-bars",
+    "desc" : "For organizing nav links.",
+    "template" : "URL: &#013;&#013;Order of nav links: "
 },
 {
     "id": 19,
@@ -176,7 +184,9 @@
     "ticketRating": "2",
     "tags": ["change", "icon", "small", "image", "img", "picture tab", "tab picture", "small tab image"],
     "category": "Header/Navigation",
-    "icon": "fas fa-file-image"
+    "icon": "fas fa-file-image",
+    "desc" : "Creating a new favicon/changing existing favicon. Please specify if you would like the logo to be converted into a favicon or attach the favicon to the ticket",
+    "template" : "URL: &#013;&#013;"
 },
 {
     "id": 20,
@@ -184,7 +194,9 @@
     "ticketRating": "3",
     "tags": ["change", "edit logo", "logos", "add to logo", "remove background", "image", "img"],
     "category": "Header/Navigation",
-    "icon": "far fa-image"
+    "icon": "far fa-image",
+    "desc" : "For creating a new logo or editing current logo. <strong>PLEASE ADVISE: We cannot edit client provided logos. <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">See Section 3 of Ticket Limitations page for details</a></strong>",
+    "template" : "URL: &#013;&#013;"
 },
 {
     "id": 21,
@@ -192,7 +204,9 @@
     "ticketRating": "2",
     "tags": ["header banner", "gradient", "pop", "flashy", "thin strip"],
     "category": "Header/Navigation",
-    "icon": "fas fa-window-maximize"
+    "icon": "fas fa-window-maximize",
+    "desc" : "For any banner you would like in the header",
+    "template" : "URL: &#013;&#013;Text for Banner:&#013;&#013;URL banner will link to (if applicable): "
 },
 {
     "id": 22,
@@ -200,7 +214,9 @@
     "ticketRating": "2",
     "tags": ["banner", "cta", "call to action", "link", "phone number", "address", "add"],
     "category": "Header/Navigation",
-    "icon": "fas fa-window-maximize"
+    "icon": "fas fa-window-maximize",
+    "desc" : "For any additional text or links in the header",
+    "template" : "URL: &#013;&#013;Text:&#013;&#013;URL text will link to (if applicable):"
 },
 {
     "id": 23,
@@ -208,7 +224,9 @@
     "ticketRating": "1",
     "tags": ["color", "font", "style", "styling", "wording", "transparent", "hidden", "white on white", "not there"],
     "category": "Style",
-    "icon": "fas fa-font"
+    "icon": "fas fa-font",
+    "desc" : "For changing one item's color on the site. For multple color changes see <strong>Color/font changes (multiple)</strong>",
+    "template" : "URL: &#013;&#013;Description: &#013;&#013;Screenshot of item: "
 },
 {
     "id": 24,
@@ -216,7 +234,9 @@
     "ticketRating": "2",
     "tags": ["color", "font", "style", "styling", "wording", "transparent", "hidden"],
     "category": "Style",
-    "icon": "fas fa-font"
+    "icon": "fas fa-font",
+    "desc" : "For changing the color of multiple items on a site.",
+    "template" : "URL: &#013;&#013;Description: &#013;&#013;Screenshot(s) of items: "
 },
 {
     "id": 25,
@@ -224,7 +244,9 @@
     "ticketRating": "2",
     "tags": ["features", "option", "icons", "images", "img"],
     "category": "Style",
-    "icon": "far fa-images"
+    "icon": "far fa-images",
+    "desc" : "For updating current features on a site (i.e. changing wording, removing an existing feature, adding a feature, etc)",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 26,
@@ -232,15 +254,19 @@
     "ticketRating": "3",
     "tags": ["features", "option", "icons", "images", "img"],
     "category": "Style",
-    "icon": "far fa-images"
+    "icon": "far fa-images",
+    "desc" : "For changing the feature style on a site (or adding features if the site never had any). <strong>Please Note: Any example sites provided must match the theme of the client's site. We cannot guarantee feature styles will work if the themes do not match.</strong>",
+    "template" : "URL: &#013;&#013;Description of Style: &#013;&#013;Example site: "
 },
 {
     "id": 27,
     "ticketName": "Package Pricing",
     "ticketRating": "3",
-    "tags": ["features", "option", "icons", "price"],
+    "tags": ["features", "option", "icons", "price", "price packages"],
     "category": "Style",
-    "icon": "far fa-images"
+    "icon": "far fa-images",
+    "desc" : "<strong style=\"color: #ff0000;\">Pricing packages have been removed from design source and are currently not available as they were creating issues on our sites. See Alex for details.</strong>",
+    "template" : "N/A"
 },
 {
     "id": 28,
@@ -248,7 +274,9 @@
     "ticketRating": "5",
     "tags": ["main", "landing page", "layouts", "features", "adding", "multiple", "several"],
     "category": "Style",
-    "icon": "far fa-window-maximize"
+    "icon": "far fa-window-maximize",
+    "desc" : "For changing the homepage layout on a large scale. <strong>Please note, this should only be for tickets targeting the homepage only. If the site is needing major changes throughout the site, speak with Alex as it may be considered a Redesign.</strong>",
+    "template" : "URL: &#013;&#013;Description: &#013;&#013;URL of example site (themes must match): "
 },
 {
     "id": 29,
@@ -256,7 +284,9 @@
     "ticketRating": "3",
     "tags": ["one page", "adding new page", "add new page", "create", "testimonial page", "review page", "about us page", "gallery page", "contact us page", "service area page", "service page", "area we service", "areas we service", "one page", "content ticket"],
     "category": "Pages",
-    "icon": "far fa-window-maximize"
+    "icon": "far fa-window-maximize",
+    "desc" : "For creating a new page (About Us, Service Area, Gallery, any new page!)",
+    "template" : "URL: &#013;&#013;Page Name: &#013;&#013;Content: &#013;&#013;Description: "
 },
 {
     "id": 30,
@@ -264,7 +294,9 @@
     "ticketRating": "4",
     "tags": ["several pages", "adding new pages", "add new pages", "create", "testimonial page", "review page", "about us page", "gallery pages", "service area page", "service page", "area we service", "areas we service", "one page", "multiple locations", "content ticket"],
     "category": "Pages",
-    "icon": "far fa-window-restore"
+    "icon": "far fa-window-restore",
+    "desc" : "For creating 2 or 3 new pages. Please attach content with page names in a word doc for this ticket.",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 31,
@@ -272,7 +304,9 @@
     "ticketRating": "5",
     "tags": ["several pages", "adding new pages", "add new pages", "create", "testimonial page", "review page", "about us page", "gallery pages", "service area page", "service page", "area we service", "areas we service", "one page", "multiple locations", "content ticket", "projects"],
     "category": "Pages",
-    "icon": "far fa-window-restore"
+    "icon": "far fa-window-restore",
+    "desc" : "For creating 4 or more new pages. Please attach content with page names in a word doc for this ticket.",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 32,
@@ -281,8 +315,8 @@
     "tags": ["several pages", "adding new pages", "add new pages", "create", "testimonial page", "review page", "about us page", "gallery pages", "service area page", "service page", "area we service", "areas we service", "one page", "multiple locations", "content ticket", "not typical", "not average"],
     "category": "Pages",
     "icon": "fas fa-laptop-code",
-    "desc":"This is for creating pages where we do not have an example TSI site. Please note: TSI sites have certian limitations and there is not a guarantee that the layout will be a one to one comparison of the non-tsi example page. We do not send designers down <a href=\"#\">rabbit holes</a> we can't climb out of, but we will do our best to accomodate to the client's request!",
-    "template":""
+    "desc":"This is for creating pages with an above average layout. Please note: If providing a non-tsi site as an example- TSI sites have certian limitations and there is not a guarantee that the layout will be a one to one comparison of the non-tsi example page, but we will do our best to accomodate to the client's request",
+    "template":"URL: &#013;&#013;Description: "
 },
 {
     "id": 33,
@@ -290,8 +324,9 @@
     "ticketRating": "3",
     "tags": ["one page", "adding new page", "add new page", "create", "testimonial page", "review page", "reviews"],
     "category": "Pages",
-    "icon": "fas fa-thumbs-up"
-    
+    "icon": "fas fa-thumbs-up",
+    "desc" : "For creating a testimonials page. Please note: <strong>Max number of testimonials is 30. <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">See Ticket Limitations Page #5 for Details.</a></strong>",
+    "template" : "URL: &#013;&#013;Description: "    
 },
 {
     "id": 34,
@@ -299,7 +334,9 @@
     "ticketRating": "3",
     "tags": ["one page", "adding new page", "add new page", "create", "ignite", "campaign"],
     "category": "Pages",
-    "icon": "far fa-window-maximize"
+    "icon": "far fa-window-maximize",
+    "desc" : "For creating a thank you page that links to contact form submissions. If it should connect to more than just contact forms, please specify in the ticket.",
+    "template" : "URL: &#013;&#013;Headline: &#013;&#013;Subheadline: "
 },
 {
     "id": 35,
@@ -307,7 +344,9 @@
     "ticketRating": "3",
     "tags": ["one page", "adding new page", "add new page", "create", "images", "portfolio", "photography"],
     "category": "Pages",
-    "icon": "fas fa-images"
+    "icon": "fas fa-images",
+    "desc" : "For creating 1 or 2 gallery pages. Please attach images using Dropbox or Google Drive (Google drive must have public access). Please ensure images are either PNG or JPEGs (JPG). We have several limitations for Gallery pages/images, see <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">Ticket Limitations Page #3</a> for details.",
+    "template" : "URL: &#013;&#013; "
 },
 {
     "id": 36,
@@ -315,7 +354,9 @@
     "ticketRating": "5",
     "tags": ["adding new page", "add new page", "create", "images", "portfolio", "photography"],
     "category": "Pages",
-    "icon": "fas fa-images"
+    "icon": "fas fa-images",
+    "desc" : "For creating 3 or more gallery pages. Please attach images using Dropbox or Google Drive (Google drive must have public access). Please ensure images are either PNG or JPEGs (JPG). We have several limitations for Gallery pages/images, see <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">Ticket Limitations Page #3</a> for details.",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 37,
@@ -323,7 +364,9 @@
     "ticketRating": "1",
     "tags": ["add text", "remove text", "delete text", "popup", "modal", "link", "wording", "words"],
     "category": "Content/Images",
-    "icon": "fas fa-paragraph"
+    "icon": "fas fa-paragraph",
+    "desc" : "For a simple text change (replacing text in a header or modal, changing a word or phrase, etc)",
+    "template" : "URL: &#013;&#013;Description: &#013;&#013;Screenshot of item: "
 },
 {
     "id": 38,
@@ -331,7 +374,9 @@
     "ticketRating": "2",
     "tags": ["add text", "remove text", "delete text", "wording", "words", "multiple", "several", "adding content", "content addition"],
     "category": "Content/Images",
-    "icon": "fas fa-paragraph"
+    "icon": "fas fa-paragraph",
+    "desc" : "For adding up to 2 paragraphs of new content",
+    "template" : "URL: &#013;&#013;Content: &#013;&#013;Screenshot of placement:"
 },
 {
     "id": 39,
@@ -339,7 +384,9 @@
     "ticketRating": "4",
     "tags": ["add text", "remove text", "delete text", "wording", "words", "multiple", "several", "adding content", "content addition", "add pages", "adding pages", "content ticket"],
     "category": "Content/Images",
-    "icon": "fas fa-paragraph"
+    "icon": "fas fa-paragraph",
+    "desc" : "For adding up to 3 or more paragraphs of content on a page or throughout the site.",
+    "template" : "URL: &#013;&#013;Content: &#013;&#013;Screenshot of placement:"
 },
 {
     "id": 40,
@@ -347,7 +394,9 @@
     "ticketRating": "4",
     "tags": ["add text", "remove text", "delete text", "wording", "words", "multiple", "several", "adding content", "content addition", "add pages", "adding pages", "restaurant", "food"],
     "category": "Content/Images",
-    "icon": "fas fa-utensils"
+    "icon": "fas fa-utensils",
+    "desc" : "For updating menus or client tables. If the client has several menu pages or a large menu to update, please see Alex as it may need to be a team ticket for multiple designers. Please note: <strong>Menus must be in PDF, Word, or RTF formats. For a list of all of our menu limitations, see <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">Ticket Limitations Page #10</a></strong>",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 41,
@@ -355,55 +404,69 @@
     "ticketRating": "1",
     "tags": ["add text", "remove text", "delete text", "wording", "words"],
     "category": "Content/Images",
-    "icon": "fas fa-unlink"
+    "icon": "fas fa-unlink",
+    "desc" : "For changing or replacing one link on the site.",
+    "template" : "URL: &#013;&#013;Location of link:  &#013;&#013;Screenshot: "
 },
 {
     "id": 42,
     "ticketName": "Images addition (2-3, not DL)",
     "ticketRating": "2",
-    "tags": ["images", "adding images", "add images", "img", "pictures", "adding pictures", "add pictures", "gallery page", "portfolio page"],
+    "tags": ["images", "adding images", "add images", "img additions", "pictures", "adding pictures", "add pictures", "gallery page", "portfolio page", "image addition"],
     "category": "Content/Images",
-    "icon": "far fa-images"
+    "icon": "far fa-images",
+    "desc" : "For adding 2 or 3 images to a page. Dropbox, Google Drive, or attaching images to the ticket is appropriate. (Google drive must have public access)",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 43,
     "ticketName": "Images addition (4-15, not DL/min opt)",
     "ticketRating": "3",
-    "tags": ["images", "adding images", "add images", "img", "pictures", "adding pictures", "add pictures", "gallery page", "portfolio page"],
+    "tags": ["images", "adding images", "add images", "img additions", "pictures", "adding pictures", "add pictures", "gallery page", "portfolio page", "image addition"],
     "category": "Content/Images",
-    "icon": "far fa-images"
+    "icon": "far fa-images",
+    "desc" : "For adding up to 15 images to a page. Dropbox or Google Drive link for images is required. (Google drive must have public access). <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">See Request Limits page #3 for image limitations.</a>",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 44,
     "ticketName": "Images addition (16-35, not DL/ext opt)",
     "ticketRating": "4",
-    "tags": ["images", "adding images", "add images", "img", "pictures", "adding pictures", "add pictures", "gallery page", "portfolio page"],
+    "tags": ["images", "adding images", "add images", "img additions", "pictures", "adding pictures", "add pictures", "gallery page", "portfolio page", "image addition"],
     "category": "Content/Images",
-    "icon": "far fa-images"
+    "icon": "far fa-images",
+    "desc" : "For adding up to 35 images to a page. Dropbox or Google Drive link for images is required. (Google drive must have public access). <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">See Request Limits page #3 for image limitations.</a>",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 45,
     "ticketName": "Images addition (36-75, not DL/ext opt)",
     "ticketRating": "5",
-    "tags": ["images", "adding images", "add images", "img", "pictures", "adding pictures", "add pictures", "gallery page", "portfolio page", "projects", "team project"],
+    "tags": ["images", "adding images", "add images", "img additions", "pictures", "adding pictures", "add pictures", "gallery page", "portfolio page", "projects", "team project", "image addition"],
     "category": "Content/Images",
-    "icon": "far fa-images"
+    "icon": "far fa-images",
+    "desc" : "For adding up to 75 images to a page. Dropbox or Google Drive link for images is required. (Google drive must have public access). <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">See Request Limits page #3 for image limitations.</a>",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 46,
     "ticketName": "Images addition (75+, not DL/ext opt)",
     "ticketRating": "5-10",
-    "tags": ["images", "adding images", "add images", "img", "pictures", "adding pictures", "add pictures", "gallery page", "portfolio page", "projects", "team project"],
+    "tags": ["images", "adding images", "add images", "img additions", "pictures", "adding pictures", "add pictures", "gallery page", "portfolio page", "projects", "team project", "image addition"],
     "category": "Content/Images",
-    "icon": "far fa-images"
+    "icon": "far fa-images",
+    "desc" : "For adding up to 100 images to a page. Dropbox or Google Drive link for images is required. (Google drive must have public access). <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">See Request Limits page #3 for image limitations.</a>",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 47,
     "ticketName": "Images addition (75+, not DL/ext opt/lp + subs) (potential team ticket)",
     "ticketRating": "7-10",
-    "tags": ["images", "adding images", "add images", "img", "pictures", "adding pictures", "add pictures", "gallery page", "portfolio page", "projects", "team project"],
+    "tags": ["images", "adding images", "add images", "img additions", "pictures", "adding pictures", "add pictures", "gallery page", "portfolio page", "projects", "team project", "image addition", "pic additions"],
     "category": "Content/Images",
-    "icon": "far fa-images"
+    "icon": "far fa-images",
+    "desc" : "For adding up to 100+ images to a site. Dropbox or Google Drive link for images is required. (Google drive must have public access). <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">See Request Limits page #3 for image limitations.</a> <strong>This is potentially a team ticket, please reach out to Alex for this ticket type</strong>",
+    "template" : ""
 },
 {
     "id": 48,
@@ -411,7 +474,9 @@
     "ticketRating": "2",
     "tags": ["images", "adding images", "add images", "img", "pictures", "adding pictures", "add pictures", "home page", "lead", "hero", "carousel"],
     "category": "Content/Images",
-    "icon": "fas fa-image"
+    "icon": "fas fa-image",
+    "desc" : "For adding or changing 1 DL slide image",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 49,
@@ -419,7 +484,9 @@
     "ticketRating": "3",
     "tags": ["images", "adding images", "add images", "img", "pictures", "adding pictures", "add pictures", "home page", "lead", "hero", "gmb button", "slides", "add links", "2 buttons", "two buttons", "2 cta buttons", "multiple cta buttons", "carousel"],
     "category": "Content/Images",
-    "icon": "fas fa-clone"
+    "icon": "fas fa-clone",
+    "desc" : "For adding or changing multiple images on multiple DLs or DL slides",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 50,
@@ -427,7 +494,9 @@
     "ticketRating": "3",
     "tags": ["images", "adding images", "add images", "img", "pictures", "adding pictures", "add pictures", "home page", "lead", "hero", "gmb button", "slides", "presidents day", "fourth of july", "4th of july", "thanksgiving", "christmas", "holidays", "carousel", "seasonal"],
     "category": "Content/Images",
-    "icon": "fas fa-gifts"
+    "icon": "fas fa-gifts",
+    "desc" : "For placing a Holiday DL on a site. <a target=\"_blank\" href=\"http://designsource.production.townsquareinteractive.com/\">See Design source tab under holidays for DL ideas</a>",
+    "template" : "Website URL: &#013;&#013;Design Source URL: &#013;&#013;Design Source Image Option Number: &#013;&#013;Design Source Font Option Number: &#013;&#013;Description: "
 },
 {
     "id": 51,
@@ -435,7 +504,9 @@
     "ticketRating": "2",
     "tags": ["add testimonials", "add reviews"],
     "category": "Content/Images",
-    "icon": "far fa-thumbs-up"
+    "icon": "far fa-thumbs-up",
+    "desc" : "For adding 1-10 reviews to a single page",
+    "template" : "URL: &#013;&#013;Reviews: "
 },
 {
     "id": 52,
@@ -443,177 +514,228 @@
     "ticketRating": "3",
     "tags": ["add testimonials", "add reviews"],
     "category": "Content/Images",
-    "icon": "far fa-thumbs-up"
+    "icon": "far fa-thumbs-up",
+    "desc" : "For adding 11-30 reviews to a single page. <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">See Design Source Request Limits for testimonial limitations</a>",
+    "template" : "URL: &#013;&#013;Reviews: "
 },
 {
     "id": 53,
     "ticketName": "Convert to Testimonial carousel",
-    "ticketRating": "3",
-    "tags": ["add testimonials", "add reviews", "custom fading quotes", "custom quotes", "custom reviews", "custom testimonials", "slides", "carousel"],
-    "category": "Content/Images",
-    "icon": "far fa-thumbs-up"
-},
-{
-    "id": 54,
-    "ticketName": "Convert to Testimonial carousel",
     "ticketRating": "2",
     "tags": ["add testimonials", "add reviews", "slides", "carousel", "charlotte theme", "charlotte testimonials", "charlotte reviews"],
     "category": "Content/Images",
-    "icon": "far fa-thumbs-up"
+    "icon": "far fa-thumbs-up",
+    "desc" : "For converting testimonials to carousel layout",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
-    "id": 55,
+    "id": 54,
     "ticketName": "Convert to Fading Testimonials",
     "ticketRating": "3",
     "tags": ["add testimonials", "add reviews", "custom fading quotes", "custom quotes", "custom reviews", "custom testimonials", "slides", "carousel", "charlotte theme", "charlotte testimonials", "charlotte reviews", "fade"],
     "category": "Content/Images",
-    "icon": "far fa-thumbs-up"
+    "icon": "far fa-thumbs-up",
+    "desc" : "For adding fading testimonials to a page.",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
-    "id": 56,
+    "id": 55,
     "ticketName": "Google review button",
     "ticketRating": "1",
-    "tags": ["gmb", "cta", "google my business"],
+    "tags": ["gmb", "cta", "google my business", "google buttons"],
     "category": "Buttons/Pop-ups",
     "icon": "fab fa-google",
-    "desc": "<strong>THIS IS NOT FOR A FLOATING BUTTON</strong><br><br><a href=\"http://designsource.production.townsquareinteractive.com/google-review-buttons\" target=\"_blank\">For Normal Google Review Buttons Here</a>",
+    "desc": "<strong>THIS IS NOT FOR A FLOATING BUTTON.</strong> This is for adding a normal Google Review button to a page.<br><br><a href=\"http://designsource.production.townsquareinteractive.com/google-review-buttons\" target=\"_blank\">For Normal Google Review Buttons Click Here</a>",
     "template": "URL:&#013;&#013;Google Review Button #(enter which style) &#013;&#013;Location to place button: "
 },
 {
     "id": 56,
     "ticketName": "Google review button (Header/Floating)",
     "ticketRating": "2",
-    "tags": ["gmb", "cta", "google my business", "floating buttons", "social media floating buttons", "slide button", "slide from left", "slide from right", "slide out"],
-    "category": "Buttons/Pop-ups"
+    "tags": ["gmb", "cta", "google my business", "floating buttons", "social media floating buttons", "slide button", "slide from left", "slide from right", "slide out", "google buttons"],
+    "category": "Buttons/Pop-ups",
+    "icon": "fab fa-google",
+    "desc" : "For Header or Floating Google buttons.<br><br><a href=\"http://designsource.production.townsquareinteractive.com/google-review-buttons\" target=\"_blank\">Normal Google Review Buttons</a><br><br><a href=\"http://designsource.production.townsquareinteractive.com/floating-buttons#review\" target=\"_blank\">Floating Social Buttons</a>",
+    "template" : "URL: &#013;&#013;Google Link: &#013;&#013;Description: "
 },
 {
     "id": 57,
     "ticketName": "Page Button (single)",
     "ticketRating": "1",
     "tags": ["add gmb button", "add cta button", "add google button", "move google button", "move cta button", "replace google button"],
-    "category": "Buttons/Pop-ups"
+    "category": "Buttons/Pop-ups",
+    "icon": "",
+    "desc" : "For adding 1 button to a page",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 58,
     "ticketName": "Page Buttons (2-5)",
     "ticketRating": "2",
     "tags": ["add cta button", "move cta button", "several page buttons", "multiple page buttons"],
-    "category": "Buttons/Pop-ups"
+    "category": "Buttons/Pop-ups",
+    "icon": "",
+    "desc" : "For adding up to 5 buttons to a page",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 59,
     "ticketName": "Page Buttons (5+)",
     "ticketRating": "3",
     "tags": ["add cta button", "move cta button", "several page buttons", "multiple page buttons"],
-    "category": "Buttons/Pop-ups"
+    "category": "Buttons/Pop-ups",
+    "icon": "",
+    "desc" : "For adding more than 5 buttons to the site",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 60,
     "ticketName": "Header Button (standard)",
     "ticketRating": "2",
     "tags": ["add cta button", "move cta button", "above navigation bar", "above nav bar", "button in header", "header button", "button header", "mobile header button", "add a button to mobile header"],
-    "category": "Buttons/Pop-ups"
+    "category": "Buttons/Pop-ups",
+    "icon": "",
+    "desc" : "For adding a button to the header",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 61,
     "ticketName": "Floating button (standard & singluar)",
     "ticketRating": "2",
-    "tags": ["one floating button", "single floating button", "singular floating button", "gmb floating button", "gmb button", "social media floating button", "social floating buttons", "social icon floating buttons"],
+    "tags": ["one floating button", "single floating button", "singular floating button", "gmb floating button", "gmb button", "social media floating button", "social floating buttons", "social icon floating buttons", "floating single", "floating singluar"],
     "category": "Buttons/Pop-ups",
-    "template" : "Floating Button Style: &#013;Color(s): &#013;URL the button will link to:"
+    "icon": "fas fa-atom",
+    "desc" : "For adding 1 floating button to a site. <a href=\"http://designsource.production.townsquareinteractive.com/floating-buttons/\" target=\"_blank\">See Floating Buttons Page for options</a>",
+    "template" : "Floating Button Style: &#013;&#013;Color(s): &#013;&#013;URL or phone number:"
 },
 {
     "id": 62,
     "ticketName": "Floating button (multiple or custom)",
     "ticketRating": "3",
-    "tags": ["multiple floating buttons", "custom floating button", "click to text", "click to call", "social media floating buttons", "facebook", "instagram", "google my business", "home advisor", "yelp", "thumbtack", "linkedin", "snapchat", "youtube", "form", "popup", "pop up", "modal", "social media floating button", "social floating buttons", "social icon floating buttons"],
+    "tags": ["multiple floating buttons", "custom floating button", "click to text", "click to call", "social media floating buttons", "facebook", "instagram", "google my business", "home advisor", "yelp", "thumbtack", "linkedin", "snapchat", "youtube", "form", "popup", "pop up", "modal", "social media floating button", "social floating buttons", "social icon floating buttons", "multi floating buttons"],
     "category": "Buttons/Pop-ups",
-    "template" : "Desktop Floating Button Style: &#013;Desktop Color(s): &#013;Desktop URL the button will link to: &#013;&#013;Mobile Floating Button Style: &#013;Mobile Color(s): &#013;Mobile URL or Phone Number: "
+    "icon": "fas fa-atom",
+    "desc" : "For adding 2+ floating buttons to a site (desktop, mobile, social, etc). <a href=\"http://designsource.production.townsquareinteractive.com/floating-buttons/\" target=\"_blank\">See Floating Buttons Page for options</a>",
+    "template" : "Floating Button Style: &#013;Color(s): &#013;URL or phone nubmer: &#013;&#013;Floating Button Style: &#013;Color(s): &#013;URL or phone number: "
 },
 {
     "id": 63,
     "ticketName": "Pop-up Modal (standard, age restriction modal)",
     "ticketRating": "3",
     "tags": ["popups"],
-    "category": "Buttons/Pop-ups"
+    "category": "Buttons/Pop-ups",
+    "icon": "",
+    "desc" : "",
+    "template" : ""
 },
 {
     "id": 64,
     "ticketName": "Holiday Modal (pre holiday-styled)",
     "ticketRating": "3",
     "tags": ["popups", "thanksgiving", "fourth of july", "4th of july", "christmas", "seasonal"],
-    "category": "Buttons/Pop-ups"
+    "category": "Buttons/Pop-ups",
+    "icon": "",
+    "desc" : "",
+    "template" : ""
 },
 {
     "id": 65,
     "ticketName": "Pop-up Modal (custom)",
     "ticketRating": "4",
     "tags": ["popups", "form", "exit button", "multiple buttons", "multiple cta buttons"],
-    "category": "Buttons/Pop-ups"
+    "category": "Buttons/Pop-ups",
+    "icon": "",
+    "desc" : "",
+    "template" : ""
 },
 {
     "id": 66,
     "ticketName": "Standard Form (contact/leave a review)",
     "ticketRating": "2",
     "tags": ["testimonials", "application", "employment"],
-    "category": "Forms"
+    "category": "Forms",
+    "icon": "",
+    "desc" : "",
+    "template" : ""
 },
 {
     "id": 67,
     "ticketName": "Form (up to 10 fields)",
     "ticketRating": "3",
     "tags": ["custom form", "copy example form", "copy form", "form attached as pdf"],
-    "category": "Forms"
+    "category": "Forms",
+    "icon": "",
+    "desc" : "",
+    "template" : ""
 },
 {
     "id": 68,
     "ticketName": "Large form (11-20 fields)",
     "ticketRating": "4",
     "tags": ["custom form", "copy example form", "copy form", "form attached as pdf"],
-    "category": "Forms"
+    "category": "Forms",
+    "icon": "",
+    "desc" : "",
+    "template" : ""
 },
 {
     "id": 69,
     "ticketName": "Extensive form (21+ fields, applications)",
     "ticketRating": "5",
     "tags": ["custom form", "copy example form", "copy form", "form attached as pdf", "large form", "big form", "several pages", "multiple pages"],
-    "category": "Forms"
+    "category": "Forms",
+    "icon": "",
+    "desc" : "",
+    "template" : ""
 },
 {
     "id": 70,
     "ticketName": "Form edit (simple)",
     "ticketRating": "2",
     "tags": ["adding form field", "add the following", "new form fields", "new fields", "checkbox", "radio button", "multiple choice", "select multiple", "address", "new phone number", "new email", "add email", "change email", "form text notifications", "verizon", "t-mobile", "at&t", "att", "sprint", "cricket"],
-    "category": "Forms"
+    "category": "Forms",
+    "icon": "",
+    "desc" : "",
+    "template" : ""
 },
 {
     "id": 71,
     "ticketName": "Form in DL",
     "ticketRating": "3",
     "tags": ["lead", "hero", "convert DL", "change DL", "form dl"],
-    "category": "Forms"
+    "category": "Forms",
+    "icon": "",
+    "desc" : "",
+    "template" : ""
 },
 {
     "id": 72,
     "ticketName": "Change address/hours",
     "ticketRating": "2",
     "tags": ["add email", "add second phone number", "secondary phone number", "additional hours", "holiday hours", "summer hours", "winter hours", "fall hours", "autumn hours", "winter hours", "seasonal hours"],
-    "category": "NAPH/Maps/GEO"
+    "category": "NAPH/Maps/GEO",
+    "icon": "",
+    "desc" : "",
+    "template" : ""
 },
 {
     "id": 73,
     "ticketName": "Update phone number (global)",
     "ticketRating": "3",
     "tags": ["numbers", "change phone number", "new phone number", "old phone number", "contact page"],
-    "category": "NAPH/Maps/GEO"
+    "category": "NAPH/Maps/GEO",
+    "icon": "",
+    "desc" : "",
+    "template" : ""
 },
 {
     "id": 74,
     "ticketName": "Update GEO in content",
     "ticketRating": "3",
     "tags": ["change address", "change phone number", "change business name", "change hours", "update address", "update phone number", "update business name", "update hours", "throughout the site", "on all pages", "on both pages", "anywhere"],
-    "desc": "This ticket covers the following:<br><br>- Changing/adding wording throughout the site (i.e. adding/changing a location or phone number)<br><br>- If your ticket starts out with 'Anywhere on the site it says this...do this'<br><br>- Adding a form to all pages of the site",
     "category": "NAPH/Maps/GEO",
+    "icon": "",
+    "desc": "This ticket covers the following:<br><br>- Changing/adding wording throughout the site (i.e. adding/changing a location or phone number)<br><br>- If your ticket starts out with 'Anywhere on the site it says this...do this'<br><br>- Adding a form to all pages of the site",
     "template": "URL: "
 },
 {
@@ -621,34 +743,49 @@
     "ticketName": "GMB Map change (one location)",
     "ticketRating": "2",
     "tags": ["google map change", "google map update", "update google map", "update map", "add service area to contact page"],
-    "category": "NAPH/Maps/GEO"
+    "category": "NAPH/Maps/GEO",
+    "icon": "",
+    "desc" : "",
+    "template" : ""
 },
 {
     "id": 76,
     "ticketName": "GMB Map change (multi location)",
     "ticketRating": "3",
     "tags": ["google map change", "google map update", "update google map", "update map", "add service area to contact page", "add map for multiple locations", "update map for multiple locations", "add multiple locations", "both locations"],
-    "category": "NAPH/Maps/GEO"
+    "category": "NAPH/Maps/GEO",
+    "icon": "",
+    "desc" : "",
+    "template" : ""
 },
 {
     "id": 77,
     "ticketName": "Service Area map creation (pin or service area radius)",
     "ticketRating": "3",
     "tags": ["create map", "create a map", "map pins", "service areas"],
-    "category": "NAPH/Maps/GEO"
+    "category": "NAPH/Maps/GEO",
+    "icon": "",
+    "desc" : "",
+    "template" : ""
 },
 {
     "id": 78,
     "ticketName": "Blog addition",
     "ticketRating": "3",
     "tags": ["new blogs"],
-    "category": "Blogs"
+    "category": "Blogs",
+    "icon": "",
+    "desc" : "",
+    "template" : ""
 },
 {
     "id": 79,
     "ticketName": "Blog additions (multiple)",
     "ticketRating": "4",
     "tags": ["new blogs"],
-    "category": "Blogs"
+    "category": "Blogs",
+    "icon": "",
+    "desc" : "",
+    "template" : ""
 }
 ]
