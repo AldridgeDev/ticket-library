@@ -5,7 +5,7 @@
     "tags": ["delete", "hide", "remove", "blank"],
     "category": "Variety",
     "icon": "fas fa-trash-alt",
-    "desc": "Ticket is for deleting or hiding 1 item only.<br><br>For deleting multiple items, see Delete/Hide Multiple Items",
+    "desc": "For deleting or hiding 1 item only.<br><br>For deleting multiple items, see Delete/Hide Multiple Items",
     "template" : "URL:&#013;&#013;Please delete the following item:&#013;&#013;Screenshot URL:"
 },
 {
@@ -15,27 +15,27 @@
     "tags": ["delete", "hide", "remove", "blank"],
     "category": "Variety",
     "icon": "far fa-trash-alt",
-    "desc": "",
+    "desc": "For deleting multiple items on a page",
     "template" : "Url:&#013;&#013;Please delete the following items:&#013;&#013;Urls (if on multiple pages):&#013;&#013;Screenshot URLs:"
 },
 {
     "id": 3,
     "ticketName": "2-4 Edits",
     "ticketRating": "3",
-    "tags": [""],
+    "tags": ["multiple edits", "multiple requests", "several edits", "several requests"],
     "category": "Variety",
     "icon": "fas fa-edit",
-    "desc": "For multiple edits",
+    "desc": "For multiple small-mid edits<br><br>Examples:<br>floating button + header button<br>simple form edit + adding buttons<br>adding a banner + adding a video",
     "template": "URL: "
 },
 {
     "id": 4,
     "ticketName": "5-10 Edits",
     "ticketRating": "5",
-    "tags": [""],
+    "tags": ["multiple edits", "multiple requests", "several edits", "several requests"],
     "category": "Variety",
     "icon": "far fa-edit",
-    "desc": "For large tickets<br><br><strong>If you think you have a group project please reach out to Alex directly</strong>",
+    "desc": "For large tickets<br><br><strong>If your ticket consists of several edits across multiple pages, or 10+ edits your ticket might be a group project. Please reach out to Alex directly to construct this ticket</strong>",
     "template": "URL: "
 },
 {
@@ -624,9 +624,9 @@
     "ticketRating": "3",
     "tags": ["popups"],
     "category": "Buttons/Pop-ups",
-    "icon": "",
-    "desc" : "",
-    "template" : ""
+    "icon": "far fa-window-maximize",
+    "desc" : "For normal popups",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 64,
@@ -634,9 +634,9 @@
     "ticketRating": "3",
     "tags": ["popups", "thanksgiving", "fourth of july", "4th of july", "christmas", "seasonal"],
     "category": "Buttons/Pop-ups",
-    "icon": "",
-    "desc" : "",
-    "template" : ""
+    "icon": "fas fa-candy-cane",
+    "desc" : "For holiday themed modals. <a target=\"_blank\" href=\"http://designsource.production.townsquareinteractive.com/\">See Design source tab under holidays for DL ideas</a>",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 65,
@@ -644,9 +644,9 @@
     "ticketRating": "4",
     "tags": ["popups", "form", "exit button", "multiple buttons", "multiple cta buttons"],
     "category": "Buttons/Pop-ups",
-    "icon": "",
-    "desc" : "",
-    "template" : ""
+    "icon": "far fa-window-maximize",
+    "desc" : "For non-typical popups. This can include popups where the client has an image they want acting as the popup, form or newsletter popups, or custom popups (within reason)",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 66,
@@ -654,9 +654,9 @@
     "ticketRating": "2",
     "tags": ["testimonials", "application", "employment"],
     "category": "Forms",
-    "icon": "",
-    "desc" : "",
-    "template" : ""
+    "icon": "fas fa-remove-format",
+    "desc" : "For adding/creating a typical contact or review form. <strong>Please include client email if not already on the site.</strong>",
+    "template" : "URL: &#013;&#013;Form title: &#013;&#013;Description: "
 },
 {
     "id": 67,
@@ -664,9 +664,9 @@
     "ticketRating": "3",
     "tags": ["custom form", "copy example form", "copy form", "form attached as pdf"],
     "category": "Forms",
-    "icon": "",
-    "desc" : "",
-    "template" : ""
+    "icon": "fas fa-remove-format",
+    "desc" : "For adding a form with up to 10 fields. <strong>Please include client email if not already on the site.</strong>",
+    "template" : "URL: &#013;&#013;Form title: &#013;&#013;Description: "
 },
 {
     "id": 68,
@@ -674,9 +674,9 @@
     "ticketRating": "4",
     "tags": ["custom form", "copy example form", "copy form", "form attached as pdf"],
     "category": "Forms",
-    "icon": "",
-    "desc" : "",
-    "template" : ""
+    "icon": "fas fa-remove-format",
+    "desc" : "For adding a form with up to 20 fields. <strong>Please include client email if not already on the site.</strong>",
+    "template" : "URL: &#013;&#013;Form title: &#013;&#013;Description: "
 },
 {
     "id": 69,
@@ -684,19 +684,19 @@
     "ticketRating": "5",
     "tags": ["custom form", "copy example form", "copy form", "form attached as pdf", "large form", "big form", "several pages", "multiple pages"],
     "category": "Forms",
-    "icon": "",
-    "desc" : "",
-    "template" : ""
+    "icon": "fas fa-remove-format",
+    "desc" : "For adding a form with 21 or more fields. <strong>Please include client email if not already on the site.</strong>",
+    "template" : "URL: &#013;&#013;Form title: &#013;&#013;Description: "
 },
 {
     "id": 70,
     "ticketName": "Form edit (simple)",
     "ticketRating": "2",
-    "tags": ["adding form field", "add the following", "new form fields", "new fields", "checkbox", "radio button", "multiple choice", "select multiple", "address", "new phone number", "new email", "add email", "change email", "form text notifications", "verizon", "t-mobile", "at&t", "att", "sprint", "cricket"],
+    "tags": ["adding form field", "add the following", "new form fields", "new fields", "checkbox", "radio button", "multiple choice", "select multiple", "address", "new phone number", "new email", "add email", "change email", "form text notifications", "verizon wireless", "t-mobile", "at&t", "att", "sprint", "cricket wireless", "boost mobile", "virgin mobile", "metro pcs", "project fi", "republic wireless", "straight talk", "u.s. cellular", "us cellular", "mobile notifications", "phone notifications", "form notifications"],
     "category": "Forms",
-    "icon": "",
-    "desc" : "",
-    "template" : ""
+    "icon": "fas fa-remove-format",
+    "desc" : "For adding a simple change to a form (adding/removing fields, adding location, address, dropdown, etc fields, adding email, adding mobile notifications).",
+    "template" : "URL: &#013;&#013;Form title: &#013;&#013;Description: "
 },
 {
     "id": 71,
@@ -704,9 +704,9 @@
     "ticketRating": "3",
     "tags": ["lead", "hero", "convert DL", "change DL", "form dl"],
     "category": "Forms",
-    "icon": "",
-    "desc" : "",
-    "template" : ""
+    "icon": "fas fa-remove-format",
+    "desc" : "For adding a form to the DL (normal, horizontal).<br><br>Please note these must be simple forms, large forms create issues in the DL. DL will be converted to parallax (sliding DLs are bad for user experience as the DL will slide when filling out the form - they also aren't scalable for mobile). ",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 72,
@@ -714,9 +714,9 @@
     "ticketRating": "2",
     "tags": ["add email", "add second phone number", "secondary phone number", "additional hours", "holiday hours", "summer hours", "winter hours", "fall hours", "autumn hours", "winter hours", "seasonal hours"],
     "category": "NAPH/Maps/GEO",
-    "icon": "",
-    "desc" : "",
-    "template" : ""
+    "icon": "fas fa-map-marker-alt",
+    "desc" : "For changing or adding naph hours or address",
+    "template" : "URL: &#013;&#013;Description: "
 },
 {
     "id": 73,
@@ -724,9 +724,9 @@
     "ticketRating": "3",
     "tags": ["numbers", "change phone number", "new phone number", "old phone number", "contact page"],
     "category": "NAPH/Maps/GEO",
-    "icon": "",
-    "desc" : "",
-    "template" : ""
+    "icon": "fas fa-phone-alt",
+    "desc" : "For changing existing phone number or adding a new phone number throughout the site's content.",
+    "template" : "URL: &#013;&#013;New Phone number: &#013;&#013;Notes: "
 },
 {
     "id": 74,
@@ -735,8 +735,8 @@
     "tags": ["change address", "change phone number", "change business name", "change hours", "update address", "update phone number", "update business name", "update hours", "throughout the site", "on all pages", "on both pages", "anywhere"],
     "category": "NAPH/Maps/GEO",
     "icon": "",
-    "desc": "This ticket covers the following:<br><br>- Changing/adding wording throughout the site (i.e. adding/changing a location or phone number)<br><br>- If your ticket starts out with 'Anywhere on the site it says this...do this'<br><br>- Adding a form to all pages of the site",
-    "template": "URL: "
+    "desc": "This ticket covers the following:<br><br>- Changing/adding wording throughout the site (i.e. adding/changing a location, phone number, or business name)<br><br>- If your ticket starts out with 'Anywhere on the site it says this...do this'<br><br>- Adding a form to all pages of the site",
+    "template": "URLs: &#013;&#013;Details: "
 },
 {
     "id": 75,
@@ -744,9 +744,9 @@
     "ticketRating": "2",
     "tags": ["google map change", "google map update", "update google map", "update map", "add service area to contact page"],
     "category": "NAPH/Maps/GEO",
-    "icon": "",
-    "desc" : "",
-    "template" : ""
+    "icon": "fas fa-map-marker-alt",
+    "desc" : "For changing the map on naph boxes (1 location)",
+    "template" : "URL: &#013;&#013;New Address: &#013;&#013;Details: "
 },
 {
     "id": 76,
@@ -754,9 +754,9 @@
     "ticketRating": "3",
     "tags": ["google map change", "google map update", "update google map", "update map", "add service area to contact page", "add map for multiple locations", "update map for multiple locations", "add multiple locations", "both locations"],
     "category": "NAPH/Maps/GEO",
-    "icon": "",
-    "desc" : "",
-    "template" : ""
+    "icon": "fas fa-map-marker-alt",
+    "desc" : "For changing the map on naph boxes (multiple locations).",
+    "template" : "URL: &#013;&#013;New Addresses: &#013;&#013;Details: "
 },
 {
     "id": 77,
@@ -764,9 +764,9 @@
     "ticketRating": "3",
     "tags": ["create map", "create a map", "map pins", "service areas"],
     "category": "NAPH/Maps/GEO",
-    "icon": "",
-    "desc" : "",
-    "template" : ""
+    "icon": "fas fa-map-pin",
+    "desc" : "For creating a custom google map with pins/radius. <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">See Ticket Limitations Page #1</a> for limits. <strong>See SEO Note</strong>",
+    "template" : "URL: &#013;&#013;Details: "
 },
 {
     "id": 78,
@@ -774,9 +774,9 @@
     "ticketRating": "3",
     "tags": ["new blogs"],
     "category": "Blogs",
-    "icon": "",
-    "desc" : "",
-    "template" : ""
+    "icon": "fas fa-blog",
+    "desc" : "For adding 1 blog to the site. Please add content to ticket or via Dropbox/Google drive (Google drive must have public access)",
+    "template" : "URL: &#013;&#013;Blog Title: &#013;&#013;Blog tags/categories (if applicable): &#013;&#013;Details: "
 },
 {
     "id": 79,
@@ -784,8 +784,8 @@
     "ticketRating": "4",
     "tags": ["new blogs"],
     "category": "Blogs",
-    "icon": "",
-    "desc" : "",
-    "template" : ""
+    "icon": "fas fa-blog",
+    "desc" : "For adding 2+ blogs to the site. Please add content via Dropbox/Google drive (Google drive must have public access)",
+    "template" : "URL: &#013;&#013;Blog Title: &#013;&#013;Blog tags/categories (if applicable): &#013;&#013;Details: "
 }
 ]
