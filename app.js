@@ -7,7 +7,10 @@ searchBar.addEventListener('keyup', (e) => {
     const filteredTickets = ticketTypes.filter(ticket => {
         let tagNames = JSON.stringify(ticket.tags);
         return (
-            ticket.ticketName.toLowerCase().includes(searchString) || tagNames.includes(searchString) || ticket.category.toLowerCase().includes(searchString) || ticket.ticketRating.includes(searchString)
+            ticket.ticketName.toLowerCase().includes(searchString) || 
+            tagNames.includes(searchString) || 
+            ticket.category.toLowerCase().includes(searchString) || 
+            ticket.ticketRating.includes(searchString)
         );
     });
     displayTickets(filteredTickets);
